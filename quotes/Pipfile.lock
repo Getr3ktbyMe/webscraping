@@ -3,19 +3,6 @@
         "hash": {
             "sha256": "1aa6edaa91bd6a4b6a5f9a2356e0071b5e3fdd884726c0cd82e40f18f46f2875"
         },
-        "host-environment-markers": {
-            "implementation_name": "cpython",
-            "implementation_version": "3.7.0",
-            "os_name": "posix",
-            "platform_machine": "x86_64",
-            "platform_python_implementation": "CPython",
-            "platform_release": "18.0.0",
-            "platform_system": "Darwin",
-            "platform_version": "Darwin Kernel Version 18.0.0: Wed Aug 22 20:13:40 PDT 2018; root:xnu-4903.201.2~1/RELEASE_X86_64",
-            "python_full_version": "3.7.0",
-            "python_version": "3.7",
-            "sys_platform": "darwin"
-        },
         "pipfile-spec": 6,
         "requires": {},
         "sources": [
@@ -132,10 +119,12 @@
         },
         "idna": {
             "hashes": [
-                "sha256:156a6814fb5ac1fc6850fb002e0852d56c0c8d2531923a51032d1b70760e186e",
-                "sha256:684a38a6f903c1d71d6d5fac066b58d7768af4de2b832e426ec79c30daa94a16"
+                "sha256:048adeaf8c2d788c40fee287673ccaa74c24ffd8dcf09ffa555a2fbb59f10ac8",
+                "sha256:ca962446ea538f7092a95e057da437618e886f4d349216d2b1e294abfdb65fdc"
             ],
-            "version": "==2.7"
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==3.15"
         },
         "incremental": {
             "hashes": [
